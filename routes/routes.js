@@ -99,7 +99,7 @@ router.post("/login", async (req, res) => {
             return;
         } else {
             const username = user.name;
-            res.status(201).send({ username, message: "Logged in" });
+            res.status(201).send({ user, message: "Logged in" });
         }
     }
 
