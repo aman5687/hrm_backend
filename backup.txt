@@ -1,0 +1,91 @@
+
+        const errors = [];
+
+        if(!employeeID){
+            errors.push("Please provide an employee ID");
+            return res.status(401).json({errors});
+        }
+        if(!employeeName){
+            errors.push("Please provide an employee Name");
+            return res.status(401).json({errors});
+        }
+        if(!employeeFatherName){
+            errors.push("Please provide an employee Father Name");
+            return res.status(401).json({errors});
+        }
+        if(!employeeMotherName){
+            errors.push("Please provide an employee Mother Name");
+            return res.status(401).json({errors});
+        }
+        if(!employeeDOB){
+            errors.push("Please provide an employee DOB");
+            return res.status(401).json({errors});
+        }
+        if(!employeeGender){
+            errors.push("Please provide an employee Gender");
+            return res.status(401).json({errors});
+        }
+        if(!employeeAddress){
+            errors.push("Please provide an employee Address");
+            return res.status(401).json({errors});
+        }
+        if(!employeeCountry){
+            errors.push("Please provide an employee Country");
+            return res.status(401).json({errors});
+        }
+        if(!employeePhone){
+            errors.push("Please provide an employee Phone");
+            return res.status(401).json({errors});
+        }
+        if(!employeeEmail){
+            errors.push("Please provide an employee Email");
+            return res.status(401).json({errors});
+        }
+        if(!employeeBankName){
+            errors.push("Please provide an employee Bank Name");
+            return res.status(401).json({errors});
+        }
+        if(!employeeBankHolderName){
+            errors.push("Please provide an employee Bank Holder Name");
+            return res.status(401).json({errors});
+        }
+        if(!employeeBranchName){
+            errors.push("Please provide an employee Bank Branch Name");
+            return res.status(401).json({errors});
+        }
+        if(!employeeAccountNumber){
+            errors.push("Please provide an employee Account Number");
+            return res.status(401).json({errors});
+        }
+        if(!employeeIFSCcode){
+            errors.push("Please provide an employee IFSC Code");
+            return res.status(401).json({errors});
+        }
+        if(!employeeAadharNumber){
+            errors.push("Please provide an employee Addhar Card Number");
+            return res.status(401).json({errors});
+        }
+        if(!employeePancard){
+            errors.push("Please provide an employee Pan Card Number");
+            return res.status(401).json({errors});
+        }
+        if(!employeeBloodGroup){
+            errors.push("Please provide an employee Blood Group");
+            return res.status(401).json({errors});
+        }
+        if(!employeeTenthImage){
+            errors.push("Please provide an employee High School Marksheet");
+            return res.status(401).json({errors});
+        }
+        if(!employeeTwelthImage){
+            errors.push("Please provide an employee Inter Marksheet");
+            return res.status(401).json({errors});
+        }
+        if(!employeeGraduation){
+            errors.push("Please provide an employee Graduation Marksheet");
+            return res.status(401).json({errors});
+        }
+        if(!employeePostGraduation){
+            errors.push("Please provide an employee Post Graduation Marksheet");
+            return res.status(401).json({errors});
+        }
